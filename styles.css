@@ -1,0 +1,102 @@
+/* Title logo */
+.title-logo {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Centering elements */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Group elements */
+.container {
+    text-align: center;
+}
+
+/* Dice container */
+.dice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Individual dice */
+.dice {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    position: relative;
+}
+
+/* Enlarge and center dice images */
+.dice img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Animation for "rolling" dice */
+.roll-animation {
+    animation: roll 1s ease-in-out;
+}
+
+/* Keyframes for dice rolling animation (basically just a spin) */
+@keyframes roll {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+}
+
+/* Custom font */
+@font-face {
+    font-family: 'Mojang';
+    src: url('Mojang-Regular.ttf') format('truetype');
+}
+
+/* Class for using the custom font */
+.mojang-font {
+    font-family: 'Mojang', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* Roll button */
+button#rollButton {
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    background-color: #9c9c9c;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Roll button hover effect */
+button#rollButton:hover {
+    background-color: #7c7c7c;
+}
+
+/* Result prompt */
+.result-prompt {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #333;
+}
