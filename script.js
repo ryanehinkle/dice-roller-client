@@ -1,14 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Define the server endpoint URL as a variable
     const serverURL = 'https://dice-roller-server.azurewebsites.net/';
-
-    console.log(`Client connected to server successfully at ${serverURL}.`);
+    console.log('Client connected to server successfully at ' + serverURL + '.');
 
     document.getElementById('rollButton').addEventListener('click', () => {
         console.log('Fetching data from server...');
 
-        // Use the serverURL variable in the fetch call
-        fetch(serverURL)
+        fetch(serverURL + 'roll-dice') // The + roll-dice is to call the roll-dice function from the base url
             .then(response => response.json())
             .then(data => {
                 const dice1Img = document.getElementById('dice1');
