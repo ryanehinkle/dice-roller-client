@@ -1,8 +1,10 @@
-# Project Name: Dice Roller (Server based)
+# Project Name: Dice Roller (Client side)
 ## Author: Ryan Hinkle
 ## Email: ryanehinkle@lewisu.edu
 
-Instructions: Connect to ***https://purple-bush-0e2d13210.4.azurestaticapps.net/***.
+Instructions:
+- Connect to ***https://purple-bush-0e2d13210.4.azurestaticapps.net/*** for client.
+- Connect/Enter ***https://dice-roller-server.azurewebsites.net/*** for server.
 
 **Dice Roller** is a simple application for simulating the randomized rolling of two
 six sided die.
