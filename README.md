@@ -1,13 +1,13 @@
-#Project Name: Dice Roller (Server based)
-#Author: Ryan Hinkle
-#Email: ryanehinkle@lewisu.edu
+# Project Name: Dice Roller (Server based)
+## Author: Ryan Hinkle
+## Email: ryanehinkle@lewisu.edu
 
 Instructions: Connect to ***https://purple-bush-0e2d13210.4.azurestaticapps.net/***.
 
-Dice Roller is a simple application for simulating the randomized rolling of two
+**Dice Roller*** is a simple application for simulating the randomized rolling of two
 six sided die.
 
-The page does make use of these files:
+### The page does make use of these files:
 1.png
 2.png
 3.png
@@ -22,6 +22,6 @@ server that I built (linked above).
 
 All work is original and written by me.
 
---CREDITS--
+# --CREDITS--
 https://www.w3schools.com/: Main source of tutorials for HTML and CSS
 Web Development with Node and Express, 2nd Edition by Ethan Brown (Node.js/Express)
