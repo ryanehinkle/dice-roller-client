@@ -4,10 +4,10 @@
 
 Instructions: Connect to ***https://purple-bush-0e2d13210.4.azurestaticapps.net/***.
 
-**Dice Roller*** is a simple application for simulating the randomized rolling of two
+**Dice Roller** is a simple application for simulating the randomized rolling of two
 six sided die.
 
-### The page does make use of these files:
+### The page makes use of these files:
 - 1.png
 - 2.png
 - 3.png
