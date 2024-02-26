@@ -2,33 +2,48 @@
 <html lang="en">
 <!--
     Author: Ryan Hinkle
-	Date: February 10, 2024
-	Software Engineering
+    Date: February 24, 2024
+    Software Engineering
     Project: Dice Roller
 -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
     <title>Dice Roller</title>
+    <!-- Linking external stylesheet -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Favicon for the webpage -->
     <link rel="icon" type="image/png" href="6.png">
 </head>
 <body>
+    <!-- Title logo image -->
     <img src="titlelogo.png" alt="Title Logo" class="title-logo">
+    <!-- Form for entering server URL -->
     <form>
-        <label class="urlLabel" for="urlInput">Enter URL of <a href="https://dice-roller-server.azurewebsites.net/" target="_blank">server</a>:</label>
+        <!-- Label and input field for URL -->
+        <label class="urlLabel" for="urlInput">Enter URL of <a 
+            href="https://dice-roller-server.azurewebsites.net/" target="_blank">server</a>:</label>
         <input type="text" id="urlInput" name="urlInput"><br>
     </form>
+    <!-- Button to 'connect' -->
     <button id="urlButton" class="mojang-font">Connect</button>
+    <!-- Container for result prompt after testing connection -->
     <div id="resultContainer"></div>
     <div class="container">
+        <!-- Container for dice -->
         <div class="dice-container">
+            <!-- Left dice -->
             <div class="dice" id="dice1"><img src="1.png" alt="Dice 1" class="dice-img"></div>
+            <!-- Right dice -->
             <div class="dice" id="dice2"><img src="1.png" alt="Dice 1" class="dice-img"></div>
         </div>
-        <button id="rollButton" class="mojang-font" autofocus>Roll Dice</button>
+        <!-- Button to 'roll' dice -->
+        <button id="rollButton" class="mojang-font">Roll Dice</button>
+        <!-- Result prompt for roll number -->
         <div id="resultPrompt" class="result-prompt mojang-font"></div>    
     </div>
+    <!-- External JavaScript file -->
     <script src="script.js"></script>
 </body>
 </html>

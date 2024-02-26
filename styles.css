@@ -1,4 +1,4 @@
-/* Title logo */
+/* Styles for the title logo */
 .title-logo {
     display: block;
     position: absolute;
@@ -7,7 +7,7 @@
     transform: translateX(-50%);
 }
 
-/* Centering elements */
+/* Centering elements vertically and horizontally */
 body {
     display: flex;
     justify-content: center;
@@ -17,12 +17,12 @@ body {
     margin: 0;
 }
 
-/* Group elements */
+/* Grouping elements together for consistent styling */
 .container {
     text-align: center;
 }
 
-/* Dice container */
+/* Styling for the container holding the dice */
 .dice-container {
     display: flex;
     justify-content: center;
@@ -30,6 +30,7 @@ body {
     margin-bottom: 20px;
 }
 
+/* Styling for the label above the URL input */
 .urlLabel {
     font-family: 'Mojang', sans-serif;
     display: inline-block;
@@ -39,7 +40,7 @@ body {
     top: 190px;
 }
 
-
+/* Styling for the URL input */
 #urlInput {
     font-family: 'Mojang', sans-serif;
     position: relative;
@@ -56,6 +57,7 @@ body {
     transition: all 0.3s ease; 
 }
 
+/* Styling for the result container */
 #resultContainer {
     font-family: 'Mojang', sans-serif;
     font-size: 12px;
@@ -63,7 +65,7 @@ body {
     top: 40%;
 }
 
-/* Individual dice */
+/* Styling for individual dice */
 .dice {
     width: 100px;
     height: 100px;
@@ -71,7 +73,7 @@ body {
     position: relative;
 }
 
-/* Enlarge and center dice images */
+/* Styling for the dice images */
 .dice img {
     position: relative;
     top: 50px;
@@ -84,7 +86,7 @@ body {
     animation: roll 1s ease-in-out;
 }
 
-/* Keyframes for dice rolling animation (basically just a spin) */
+/* Keyframes for dice rolling animation (spin effect) */
 @keyframes roll {
     0% {
       transform: rotate(0deg);
@@ -97,18 +99,18 @@ body {
     }
 }
 
-/* Custom font */
+/* Custom font declaration */
 @font-face {
     font-family: 'Mojang';
     src: url('Mojang-Regular.ttf') format('truetype');
 }
 
-/* Class for using my custom font */
+/* Styling for elements using the custom font */
 .mojang-font {
     font-family: 'Mojang', sans-serif;
 }
 
-/* Roll button */
+/* Styling for the roll button */
 button#rollButton {
     position: relative;
     top: 50px;
@@ -122,6 +124,7 @@ button#rollButton {
     transition: background-color 0.3s ease;
 }
 
+/* Styling for the connect button */
 button#urlButton {
     transform: translateY(-120%);
     font-size: 10px;
@@ -134,17 +137,17 @@ button#urlButton {
     transition: background-color 0.3s ease;
 }
 
-/* Roll button hover effect */
+/* Hover effect for the connect button */
 button#urlButton:hover {
     background-color: #7c7c7c;
 }
 
-/* Roll button hover effect */
+/* Hover effect for the roll button */
 button#rollButton:hover {
     background-color: #7c7c7c;
 }
 
-/* Result prompt */
+/* Styling for the result prompt */
 .result-prompt {
     position: absolute;
     bottom: 20%;
