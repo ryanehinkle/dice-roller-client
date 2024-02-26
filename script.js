@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
-                displayConnectionStatus('Please provide a URL!', 'error');
+                displayConnectionStatus('Please provide a valid URL!', 'error');
             });
     });
 
